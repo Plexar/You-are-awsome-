@@ -19,6 +19,13 @@ class ViewController: UIViewController {
     @IBAction func messageButtonPressed(_ sender: UIButton) {
         print("😎 The message button was pressed!")
         messageLabel.text = "You Are Awsome!"
+        messageLabel.textAlignment = .left;
+    }
+    
+    @IBAction func show2Pressed(_ sender: UIButton) {
+        print("😎 The show 2 button was pressed!")
+        messageLabel.text = "You Are Great!"
+        messageLabel.textAlignment = .right;
     }
     
 }
